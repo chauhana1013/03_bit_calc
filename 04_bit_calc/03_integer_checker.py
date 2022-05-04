@@ -3,7 +3,7 @@ def num_check(question, low):
     valid = False
     while not valid:
         
-        error = "Please enter an integer that is more than "
+        error = "Please enter an integer that is more than 0 "
         "(or equal to) {}".format(low)
                 
         try:
