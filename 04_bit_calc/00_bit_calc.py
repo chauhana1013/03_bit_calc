@@ -1,9 +1,6 @@
 # Functions go here 
 
 # Puts series of symbols at start and end of statement (for emphasis)
-from cgi import print_form
-
-
 def  statement_generator(text, decoration):
 
     # Make string with 5 characters 
@@ -140,8 +137,9 @@ def image_bits() :
     # output answer with working
     print()
     print("# of pixels = {} x {} = {}".format(image_height, image_width, num_pixels))
-    print() 
-
+    print("# bits = {} x 24 = {}".format(num_pixels, num_bits))
+    print()
+    
 def num_check(question, low):
     valid = False
     while not valid:
@@ -220,5 +218,5 @@ while keep_going == "":
 
     
     print()
-    keep_going - input("Press <enter> to continue or any key to quit")
+    keep_going = input("Press <enter> to continue or any key to quit")
     print()
