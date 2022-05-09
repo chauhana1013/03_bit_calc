@@ -12,7 +12,7 @@ def text_bits():
     # output answer with working
     print()
     print("\'{}\' has {} characters ...".format(var_text, var_length))
-    print('# of bits is {] x 8...'.format(var_length))
+    print('# of bits is {} x 8...'.format(var_length))
     print("We need {} bits to represent {}".format(num_bits, var_text))
     print()
 
